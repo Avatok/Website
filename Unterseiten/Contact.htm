@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="../Grafiken/Icon.png"/>
+    <!--CSS-->
+    <link 
+      href="../bs_8.19.2/css/bootstrap.min.css" rel="stylesheet"
+    />
+    <link
+    href="../Style/styles.css" rel="stylesheet"
+    />
+    <!--Icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+
+    <style>
+      .icon-color{
+        color: #caf8a3;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      textarea {
+        margin:0px 0px;
+        padding:5px;
+        height:16px;
+        line-height:16px;
+        width:96%;
+        display:block;
+        margin:0px auto;    
+      }
+    </style>
+    <script>
+      window.alert("The contact form is not yet ready for use. \n Please email me directly at 'avatok.business@gmail.com'! \n\n Thank you for understanding \n -Avatok");
+    </script>
+
+    <title>Contact - Avatok</title>
+</head>
+<body>
+    <!--Navigation-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-3 sticky-top">
+      <div class="container">
+      <img src="../Grafiken/Avatok.png" width="50" alt="NavAvatok" style="margin-right: 0.3rem;">
+      <a href="../index.htm" class="navbar-brand">Avatok</a>
+      <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navmenue" title="NavBarButton"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id='navmenue'>
+              <ul class="navbar-nav ms-auto">
+                  <li class="nav-item"><a href="../index.htm" class="nav-link">Startseite</a></li>
+                  <li class="nav-item"><a href="Shop.htm" class="nav-link">Shop</a></li>
+                  <li class="nav-item"><a href="Portfolio.htm" class="nav-link">Portfolio</a></li>
+                  <li class="nav-item"><a href="SocialMedia.htm" class="nav-link">Social Media</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+              </ul>
+          </div>
+      </div>
+    </nav>
+    <!--End-Navigation-->
+<br>
+    <!--Main-->
+  <center>
+    <h2>Contact form</h2>
+    <p>Fields with * are required</p>
+<br>
+<br>
+    <section>
+      <div class="container">
+        <form>
+          <div class="row g-3">
+            <div class="col">
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control mb-3" placeholder="First name" aria-label="FirstName" required>
+                <label for="floatingInput">First name*</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control mb-3" placeholder="Last name" aria-label="LastName" required>
+                <label for="floatingInput">Last name*</label>
+              </div>
+            </div>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control mb-3" placeholder="Company" aria-label="Company">
+            <label for="floatingInput">Company</label>
+          </div>
+          <div class="form-floating">
+            <select class="form-select mb-3" id="floatingSelect" aria-label="Subject" required>
+              <option value="GeneralRequest">general request</option>
+              <option value="Complaint">Complaint</option>
+              <option value="OtherRequest">Other request</option>
+            </select>
+            <label for="floatingSelect">Subject*</label>
+          </div>
+          <div class="form-floating mb-3">
+            <textarea class="form-control" placeholder="Add your request here" id="floatingTextarea" style="height: 350px;" required></textarea>
+            <label for="floatingTextarea">Your request*</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control mb-3" placeholder="E-mail address" aria-label="Email" required>
+            <label for="floatingInput">E-mail address*</label>
+          </div>
+          <button type="submit" class="btn btn-primary m-5">Submit request</button>
+        </form>
+      </div>
+  </center>
+    </section>
+    <!--End-Main-->
+    <!--Footer-->
+    <footer class="p-3 bg-dark text-white text-center position-relative sticky-bottom">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <a href="Impressum.htm"><p class="lead" style="color:#caf8a3">Impressum</p></a>
+          </div>
+
+          <div class="col">
+            <p class="lead">Copyright &copy; 2022 Pascal - Avatok</p>
+          </div>
+
+          <div class="col">
+            <a href="SocialMedia.htm">
+              <i class="bi bi-collection h2 icon-color"></i>
+            </a>
+            <a href="#">
+              <i class="bi bi-arrow-up-circle h2 icon-color"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--End-Footer-->
+    <!--Java Script-->
+    <script src="../bs_8.19.2/js/bootstrap.bundle.min.js"></script> 
+</body>
+</html>
