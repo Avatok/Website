@@ -49,6 +49,27 @@ textarea {
   border-radius: 5px;
 }
 
+.social-icon {
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}
+
+.cta {
+    border-radius: 10px;
+}
+
+.carousel {
+    margin-top: 50px;
+}
+
+.carousel-item img {
+    max-height: 400px;
+    object-fit: cover;
+}
+
 .footer {
   position: absolute;
   bottom: 0;
