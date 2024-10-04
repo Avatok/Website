@@ -49,14 +49,6 @@ textarea {
   border-radius: 5px;
 }
 
-.social-icon {
-    transition: transform 0.3s ease;
-}
-
-.social-icon:hover {
-    transform: scale(1.2);
-}
-
 .cta {
     border-radius: 10px;
 }
