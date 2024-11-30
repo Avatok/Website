@@ -1,16 +1,19 @@
-//Modal
+// Modal
 document.addEventListener("DOMContentLoaded", () => {
     const infoModal = new bootstrap.Modal(document.getElementById("infoModal"));
     const submitButton = document.getElementById("submitRequest");
-  
-    infoModal.show(); //Modal Anzeige
-  
+
+    // Zeige das Modal beim Laden der Seite
+    infoModal.show();
+
+    // Event-Listener für den Submit-Button
     submitButton.addEventListener("click", (e) => {
-      infoModal.show(); //Modal Anzeige
+      e.preventDefault(); // Verhindert das Absenden des Formulars
+      infoModal.show(); // Modal erneut anzeigen
     });
 });
 
-// Word Count
+// Zeichen zählen
 function CharacterCount() {
     var textarea = document.getElementById('request');
     var charCount = document.getElementById('charCount');
