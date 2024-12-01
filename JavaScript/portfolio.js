@@ -1,3 +1,4 @@
+//Portfolio JS
 /**
 * Template Name: MyPortfolio
 * Updated: Sep 18 2023 with Bootstrap v5.3.2
