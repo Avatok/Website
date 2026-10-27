@@ -35,7 +35,7 @@ Website/
 ├── style.css
 ├── script.js
 ├── Media/
-│   ├── avatok-logo.png
+│   ├── avatok-logo.webp
 │   └── Portfolio/
 └── Subpages/
     ├── Ueber-mich.html
